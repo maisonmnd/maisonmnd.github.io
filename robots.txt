@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://maisonmnd.com/sitemap.xml
+Sitemap: https://maisonmnd.github.io/sitemap.xml
