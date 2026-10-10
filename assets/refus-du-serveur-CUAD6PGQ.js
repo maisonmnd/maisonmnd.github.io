@@ -1,0 +1,1 @@
+async function f(s,n){const e=s==null?void 0:s.error;if(typeof e=="string"&&e)return e;const i=(n==null?void 0:n.message)??"",u=n==null?void 0:n.context;if(!u||typeof u.json!="function")return i;try{const t=await u.json(),c=(t==null?void 0:t.error)??(t==null?void 0:t.erreur);return typeof c=="string"&&c?c:i}catch{return i}}export{f as r};
